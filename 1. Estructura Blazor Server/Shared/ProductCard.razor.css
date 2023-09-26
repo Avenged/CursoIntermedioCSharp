@@ -1,0 +1,6 @@
+﻿.product-card {
+    border: 3px solid green;
+    padding: 20px;
+    max-width: 300px;
+    background-color: green;
+}
