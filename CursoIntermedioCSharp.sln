@@ -10,9 +10,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstructuraBlazorServer", "1. Estructura Blazor Server\EstructuraBlazorServer.csproj", "{E7833122-4C44-4E2D-AA78-B21BF5C39750}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{C24E0B85-2522-4CF4-B73E-7E6D3403F6A8}"
-	ProjectSection(SolutionItems) = preProject
-		readme.md = readme.md
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
