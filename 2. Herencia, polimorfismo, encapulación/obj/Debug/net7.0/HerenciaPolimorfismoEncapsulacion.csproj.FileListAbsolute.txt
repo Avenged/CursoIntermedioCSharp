@@ -1,0 +1,14 @@
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\HerenciaPolimorfismoEncapsulacion\bin\Debug\net7.0\HerenciaPolimorfismoEncapsulacion.exe
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\HerenciaPolimorfismoEncapsulacion\bin\Debug\net7.0\HerenciaPolimorfismoEncapsulacion.deps.json
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\HerenciaPolimorfismoEncapsulacion\bin\Debug\net7.0\HerenciaPolimorfismoEncapsulacion.runtimeconfig.json
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\HerenciaPolimorfismoEncapsulacion\bin\Debug\net7.0\HerenciaPolimorfismoEncapsulacion.dll
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\HerenciaPolimorfismoEncapsulacion\bin\Debug\net7.0\HerenciaPolimorfismoEncapsulacion.pdb
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\HerenciaPolimorfismoEncapsulacion\obj\Debug\net7.0\HerenciaPolimorfismoEncapsulacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\HerenciaPolimorfismoEncapsulacion\obj\Debug\net7.0\HerenciaPolimorfismoEncapsulacion.AssemblyInfoInputs.cache
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\HerenciaPolimorfismoEncapsulacion\obj\Debug\net7.0\HerenciaPolimorfismoEncapsulacion.AssemblyInfo.cs
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\HerenciaPolimorfismoEncapsulacion\obj\Debug\net7.0\HerenciaPolimorfismoEncapsulacion.csproj.CoreCompileInputs.cache
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\HerenciaPolimorfismoEncapsulacion\obj\Debug\net7.0\HerenciaPolimorfismoEncapsulacion.dll
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\HerenciaPolimorfismoEncapsulacion\obj\Debug\net7.0\refint\HerenciaPolimorfismoEncapsulacion.dll
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\HerenciaPolimorfismoEncapsulacion\obj\Debug\net7.0\HerenciaPolimorfismoEncapsulacion.pdb
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\HerenciaPolimorfismoEncapsulacion\obj\Debug\net7.0\HerenciaPolimorfismoEncapsulacion.genruntimeconfig.cache
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\HerenciaPolimorfismoEncapsulacion\obj\Debug\net7.0\ref\HerenciaPolimorfismoEncapsulacion.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "HerenciaPolimorfismoEncapsulacion/1.0.0": {
+        "runtime": {
+          "HerenciaPolimorfismoEncapsulacion.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HerenciaPolimorfismoEncapsulacion/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
