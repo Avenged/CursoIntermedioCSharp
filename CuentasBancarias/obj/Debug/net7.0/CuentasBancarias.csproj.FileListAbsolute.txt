@@ -1,0 +1,11 @@
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\CuentasBancarias\bin\Debug\net7.0\CuentasBancarias.deps.json
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\CuentasBancarias\bin\Debug\net7.0\CuentasBancarias.dll
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\CuentasBancarias\bin\Debug\net7.0\CuentasBancarias.pdb
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\CuentasBancarias\obj\Debug\net7.0\CuentasBancarias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\CuentasBancarias\obj\Debug\net7.0\CuentasBancarias.AssemblyInfoInputs.cache
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\CuentasBancarias\obj\Debug\net7.0\CuentasBancarias.AssemblyInfo.cs
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\CuentasBancarias\obj\Debug\net7.0\CuentasBancarias.csproj.CoreCompileInputs.cache
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\CuentasBancarias\obj\Debug\net7.0\CuentasBancarias.dll
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\CuentasBancarias\obj\Debug\net7.0\refint\CuentasBancarias.dll
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\CuentasBancarias\obj\Debug\net7.0\CuentasBancarias.pdb
+C:\Users\chaud\source\repos\CursoIntermedioCSharp\CuentasBancarias\obj\Debug\net7.0\ref\CuentasBancarias.dll

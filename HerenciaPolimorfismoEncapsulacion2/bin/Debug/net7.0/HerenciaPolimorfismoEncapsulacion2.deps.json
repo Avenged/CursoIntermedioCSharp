@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "HerenciaPolimorfismoEncapsulacion2/1.0.0": {
+        "dependencies": {
+          "CuentasBancarias": "1.0.0",
+          "Reproductor": "1.0.0"
+        },
+        "runtime": {
+          "HerenciaPolimorfismoEncapsulacion2.dll": {}
+        }
+      },
+      "CuentasBancarias/1.0.0": {
+        "runtime": {
+          "CuentasBancarias.dll": {}
+        }
+      },
+      "Reproductor/1.0.0": {
+        "runtime": {
+          "Reproductor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HerenciaPolimorfismoEncapsulacion2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CuentasBancarias/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Reproductor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
