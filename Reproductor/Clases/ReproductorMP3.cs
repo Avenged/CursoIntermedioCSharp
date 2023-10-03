@@ -5,8 +5,13 @@ namespace Reproductor.Clases;
 public class ReproductorMP3 : ReproductorMultimediaBase, IReproductorControl
 {
     private Cancion _cancionReproduciendo;
-    private HashSet<Cancion> _canciones = new();
 
+    // HashSet: El tipo de lista HashSet se asegura de que no se repita la misma canción en la lista.
+    // readonly: Agregamos la palabra reservada readonly para indicar que no se va a reasignar este campo.
+    private readonly HashSet<Cancion> _canciones = new();
+
+    // Retornamos un IEnumerable del tipo Cancion para ser más flexibles. Además, solo queremos que el usuario
+    // enumere las canciones, no que agregue ni elimine.
     public IEnumerable<Cancion> ObtenerCanciones()
     {
         return _canciones;
@@ -23,6 +28,9 @@ public class ReproductorMP3 : ReproductorMultimediaBase, IReproductorControl
         {
             Console.WriteLine($"Segundo {segundosReproducidos}");
             segundosReproducidos++;
+
+            // Con Thread.Sleep logramos que la aplicación se detenga la cantidad de segundos que le pasamos como argumento.
+            // En este caso la aplicación se "dormirá" 1 segundo.
             Thread.Sleep(1000);
         }
 
