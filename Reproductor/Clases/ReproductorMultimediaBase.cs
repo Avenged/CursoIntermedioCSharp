@@ -2,7 +2,10 @@
 
 namespace Reproductor.Clases;
 
-public abstract class ReproductorMultimediaBase : IMedia, IReproductorMultimedia
+/// <summary>
+/// Clase base para todos los reproductores multimedia.
+/// </summary>
+public abstract class ReproductorMultimediaBase : IReproductorMultimedia
 {
     public void Reproducir()
     {
@@ -15,5 +18,6 @@ public abstract class ReproductorMultimediaBase : IMedia, IReproductorMultimedia
     }
 
     public abstract void Detener();
+    public abstract void Retroceder(int segundos);
     public abstract void Avanzar(int segundos);
 }

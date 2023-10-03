@@ -11,4 +11,9 @@ public class ChromeCast : ReproductorMultimediaBase
     {
         Console.WriteLine($"Deteniendo reproducción.");
     }
+
+    public override void Retroceder(int segundos)
+    {
+        throw new NotImplementedException();
+    }
 }

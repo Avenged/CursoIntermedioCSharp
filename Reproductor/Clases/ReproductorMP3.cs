@@ -55,6 +55,11 @@ public class ReproductorMP3 : ReproductorMultimediaBase, IReproductorControl
         Console.WriteLine("Deteniendo la reproducción de MP3.");
     }
 
+    public override void Retroceder(int segundos)
+    {
+        Console.WriteLine($"Retrocediendo {segundos} segundos en el reproductor de MP3.");
+    }
+
     public override void Avanzar(int segundos)
     {
         Console.WriteLine($"Avanzando {segundos} segundos en el reproductor de MP3.");
