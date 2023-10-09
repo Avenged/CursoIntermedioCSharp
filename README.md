@@ -6,3 +6,5 @@ Link a los recursos del curso: https://drive.google.com/drive/u/0/folders/1zoUuG
 https://youtu.be/jGFeKcARJ_0
 2. Herencia, polimorfismo y encapsulación:
 https://youtu.be/jnf8Pw2MGRU
+2.1 Herencia, polimorfismo y encapsulación:
+https://youtu.be/puAZi67pjf8
