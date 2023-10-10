@@ -31,3 +31,6 @@
 *.db
 .vs/
 Publish/
+/.vs/CursoIntermedioCSharp/v17/.futdcache.v2
+/.vs/ProjectEvaluation/cursointermediocsharp.metadata.v7.bin
+/.vs/ProjectEvaluation/cursointermediocsharp.projects.v7.bin
