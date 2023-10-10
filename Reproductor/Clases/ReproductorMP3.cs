@@ -22,6 +22,11 @@ public class ReproductorMP3 : ReproductorMultimediaBase, IReproductorControl
 
     public override void Reproducir()
     {
+        if (current != null)
+        {
+            return;
+        }
+
         try
         {
             using var mp3Reader = new Mp3FileReader("./Canciones/03 - Doing Time.mp3");
@@ -36,6 +41,8 @@ public class ReproductorMP3 : ReproductorMultimediaBase, IReproductorControl
             {
                 Thread.Sleep(1000);
             }
+
+            current = null;
         }
         catch (Exception ex)
         {
