@@ -1,10 +1,13 @@
-﻿using Reproductor.Interfaces;
+﻿using NAudio.Wave;
+using Reproductor.Interfaces;
+using System.Media;
 
 namespace Reproductor.Clases;
 
 public class ReproductorMP3 : ReproductorMultimediaBase, IReproductorControl
 {
     private Cancion _cancionReproduciendo;
+    private WaveOutEvent current;
 
     // HashSet: El tipo de lista HashSet se asegura de que no se repita la misma canción en la lista.
     // readonly: Agregamos la palabra reservada readonly para indicar que no se va a reasignar este campo.
@@ -17,24 +20,37 @@ public class ReproductorMP3 : ReproductorMultimediaBase, IReproductorControl
         return _canciones;
     }
 
+    public override void Reproducir()
+    {
+        try
+        {
+            using var mp3Reader = new Mp3FileReader("./Canciones/03 - Doing Time.mp3");
+            using var outputDevice = new WaveOutEvent();
+            outputDevice.Init(mp3Reader);
+            outputDevice.Play();
+
+            current = outputDevice;
+
+            // Mantener la aplicación en ejecución hasta que se complete la reproducción
+            while (outputDevice.PlaybackState == PlaybackState.Playing)
+            {
+                Thread.Sleep(1000);
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Error al reproducir el archivo: " + ex.Message);
+        }
+    }
+
+    public override void Pausar()
+    {
+        current?.Pause();
+    }
+
     public void Reproducir(Cancion cancion)
     {
-        _cancionReproduciendo = cancion;
-
-        Console.WriteLine($"Reproduciendo canción: {cancion.Titulo}.");
-
-        int segundosReproducidos = 0;
-        while (segundosReproducidos < cancion.Duracion)
-        {
-            Console.WriteLine($"Segundo {segundosReproducidos}");
-            segundosReproducidos++;
-
-            // Con Thread.Sleep logramos que la aplicación se detenga la cantidad de segundos que le pasamos como argumento.
-            // En este caso la aplicación se "dormirá" 1 segundo.
-            Thread.Sleep(1000);
-        }
-
-        _cancionReproduciendo = null;
+    
     }
 
     public void AñadirCancion(Cancion cancion)
