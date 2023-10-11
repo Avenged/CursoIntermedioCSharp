@@ -22,6 +22,12 @@ public class ReproductorMP3 : ReproductorMultimediaBase, IReproductorControl
 
     public override void Reproducir()
     {
+        if (current != null && current.PlaybackState == PlaybackState.Paused)
+        {
+            current.Play();
+            return;
+        }
+
         if (current != null)
         {
             return;
@@ -37,7 +43,7 @@ public class ReproductorMP3 : ReproductorMultimediaBase, IReproductorControl
             current = outputDevice;
 
             // Mantener la aplicación en ejecución hasta que se complete la reproducción
-            while (outputDevice.PlaybackState == PlaybackState.Playing)
+            while (outputDevice.PlaybackState == PlaybackState.Playing || outputDevice.PlaybackState == PlaybackState.Paused)
             {
                 Thread.Sleep(1000);
             }
@@ -75,7 +81,7 @@ public class ReproductorMP3 : ReproductorMultimediaBase, IReproductorControl
 
     public override void Detener()
     {
-        Console.WriteLine("Deteniendo la reproducción de MP3.");
+        current?.Stop();
     }
 
     public override void Retroceder(int segundos)
