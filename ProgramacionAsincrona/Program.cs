@@ -1,5 +1,11 @@
 ﻿using System.Diagnostics;
 
+// De esta forma cada tarea se ejecuta en un hilo diferente
+//var tarea1 = () => Task.Run(ObtenerPersonasRegistradas);
+//var tarea2 = () => Task.Run(ObtenerStock);
+//var tarea3 = () => Task.Run(ObtenerProductos);
+
+// De esta forma cada tarea se ejecuta en el mismo hilo haciendo uso de la concurrencia
 var tarea1 = () => ObtenerPersonasRegistradas();
 var tarea2 = () => ObtenerStock();
 var tarea3 = () => ObtenerProductos();
@@ -27,6 +33,7 @@ Console.WriteLine("Programa finalizado.");
 
 async Task<List<string>> ObtenerPersonasRegistradas()
 {
+    Console.WriteLine("ObtenerPersonasRegistradas se está ejecutando en el hilo id: " + Environment.CurrentManagedThreadId);
     await Task.Delay(6000);
     Console.WriteLine("ObtenerPersonasRegistradas terminado.");
     return new List<string>();
@@ -34,12 +41,14 @@ async Task<List<string>> ObtenerPersonasRegistradas()
 
 async Task ObtenerProductos()
 {
+    Console.WriteLine("ObtenerProductos se está ejecutando en el hilo id: " + Environment.CurrentManagedThreadId);
     await Task.Delay(5000);
     Console.WriteLine("ObtenerProductos terminado.");
 }
 
 async Task ObtenerStock()
 {
+    Console.WriteLine("ObtenerStock se está ejecutando en el hilo id: " + Environment.CurrentManagedThreadId);
     await Task.Delay(5000);
     Console.WriteLine("ObtenerStock terminado.");
 }
