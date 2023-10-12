@@ -13,7 +13,7 @@ List<Func<Task>> lista_de_tareas = new()
 
 Stopwatch sw = Stopwatch.StartNew();
 
-// Crea una tarea que espera la finalizacion de todas las tareas en lista_de_tareas
+// Task.WhenAll crea una tarea que espera la finalizacion de todas las tareas en lista_de_tareas:
 await Task.WhenAll(lista_de_tareas.Select(async x => await x()));
 sw.Stop();
 
