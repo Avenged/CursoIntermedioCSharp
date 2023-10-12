@@ -8,3 +8,7 @@ https://youtu.be/jGFeKcARJ_0
 https://youtu.be/jnf8Pw2MGRU
 3. Herencia, polimorfismo y encapsulación:
 https://youtu.be/puAZi67pjf8
+4. Reproductor MP3:
+https://youtu.be/obZNCbYQz-Y
+5. Programación asíncrona:
+https://youtu.be/2aeLYuElC6E
