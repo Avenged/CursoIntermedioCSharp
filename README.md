@@ -14,5 +14,5 @@ https://youtu.be/obZNCbYQz-Y
 https://youtu.be/2aeLYuElC6E
 6. Entity Framework:
 https://youtu.be/5Ebt9Edd5js
-7. Proyecto final Blazor Parte 1:
+7. Proyecto final Blazor (Parte 1):
 https://youtu.be/eCaNrPUG-0c
