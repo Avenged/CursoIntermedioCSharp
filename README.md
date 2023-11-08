@@ -4,9 +4,9 @@ Link a los recursos del curso: https://drive.google.com/drive/u/0/folders/1zoUuG
 
 1. Estructura de proyecto Blazor:
 https://youtu.be/jGFeKcARJ_0
-2. Herencia, polimorfismo y encapsulación:
+2. Herencia, polimorfismo y encapsulación (Parte 1):
 https://youtu.be/jnf8Pw2MGRU
-3. Herencia, polimorfismo y encapsulación:
+3. Herencia, polimorfismo y encapsulación (Parte 2):
 https://youtu.be/puAZi67pjf8
 4. Reproductor MP3:
 https://youtu.be/obZNCbYQz-Y
