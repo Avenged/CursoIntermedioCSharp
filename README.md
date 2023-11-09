@@ -16,3 +16,5 @@ https://youtu.be/2aeLYuElC6E
 https://youtu.be/5Ebt9Edd5js
 7. Proyecto final Blazor (Parte 1):
 https://youtu.be/eCaNrPUG-0c
+8. Proyecto final Blazor (Parte 2):
+https://youtu.be/OGC7wBEyJ_c
